@@ -34,8 +34,6 @@ export class App extends Component {
         'savedContacts',
         JSON.stringify(this.state.contacts)
       );
-      console.log('update');
-      console.log(localStorage);
     }
   }
 
